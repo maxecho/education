@@ -3,14 +3,13 @@
   <head>
     <title>Испытание: через тернии к звёздам</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="exam.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <header class="page-header">Форма отзыва</header>
     <main>
       <form action="https://echo.htmlacademy.ru/courses" method="post" oninput="daysoutput.value=dayscount.value">
-        
+
         <fieldset>
           <legend>Личные данные</legend>
         <div class="half-width">
@@ -21,30 +20,30 @@
           <label for="name">Имя путешественника</label>
           <input type="text" name="text" id="text">
         </div>
-        </fieldset> 
-        
+        </fieldset>
+
         <fieldset>
           <legend>Отзыв о поездке</legend>
-          
+
         <div class="half-width">
           <label for="country">Страна визита</label>
           <input type="text" name="country" id="country">
         </div>
-        
+
         <div class="half-width">
           <label for="city">Город</label>
           <select name="city" id="city">
             <option value="Осло" selected></option>
             <option value="Шпицберген"></option>
-          </select>  
-          
+          </select>
+
         </div>
-        
+
         <div class="half-width">
         <label for="rating">Оценка поездки</label>
-      
+
           0 <input type="range" min="0" max="10" step="1">10
-          
+
         </div>
         <div class="half-width output-area">
           <output type="number" name="daysoutput">10</output>
@@ -52,7 +51,7 @@
         <label for="review">Текст отзыва</label>
         <textarea type="text" name="review" id="review" rows="5"></textarea>
         </fieldset>
-          
+
         <fieldset>
           <legend>Оценка отеля</legend>
         <div class="half-width">
@@ -82,7 +81,7 @@
           <option value="Зеркальный карп"></option>
         </select>
         </fieldset>
-        
+
         <div class="buttons">
           <input type="submit" name="submit" id="submit" value="Оценить">
           <input type="reset" name="reset" id="reset" value="Сбросить">
