@@ -13,89 +13,30 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <header class="page-header">Форма отзыва</header>
+    <header>
+
+    </header>
     <main>
-      <form action="https://echo.htmlacademy.ru/courses" method="post" oninput="daysoutput.value=dayscount.value">
+      <div class="introduction">
+        <h1>Заметки юного разработчика</h1>
+          <p>В общем, собрался я значит разработку изучать и замахнулся сразу на фулстек-разработчика. На этот сайте я буду собирать все свои домашние работы и заметки по ходу обучения. Над структурой все еще думаю, так что сайт этот будет обновляться чуть ли не каждый день.</p>
+          <p>Stay tuned, как говорится!<p>
+      </div>
 
-        <fieldset>
-          <legend>Личные данные</legend>
-        <div class="half-width">
-          <label for="id">ID отзыва</label>
-          <input type="text" id="id" name="id" disabled placeholder="12345">
-        </div>
-        <div class="half-width">
-          <label for="name">Имя путешественника</label>
-          <input type="text" name="text" id="text">
-        </div>
-        </fieldset>
+      <div class="content">
+        <h2>Страницы с отработками каких-то элементов:</h2>
+          <ul>
+            <li><a href="ed-forms.html">Формы во всех их проявлениях</li>
+            <li>Старшные селекторы</li>
+            <li>И так далее</li>
+          </ul>
+        <h2>А тут будут записи из блога</h2>
+          <ul>
+            <li>День 1. Как я ко всему этому пришел</li>
+          </ul>
+      </div>
 
-        <fieldset>
-          <legend>Отзыв о поездке</legend>
-
-        <div class="half-width">
-          <label for="country">Страна визита</label>
-          <input type="text" name="country" id="country">
-        </div>
-
-        <div class="half-width">
-          <label for="city">Город</label>
-          <select name="city" id="city">
-            <option value="Осло" selected></option>
-            <option value="Шпицберген"></option>
-          </select>
-
-        </div>
-
-        <div class="half-width">
-        <label for="rating">Оценка поездки</label>
-
-          0 <input type="range" min="0" max="10" step="1">10
-
-        </div>
-        <div class="half-width output-area">
-          <output type="number" name="daysoutput">10</output>
-        </div>
-        <label for="review">Текст отзыва</label>
-        <textarea type="text" name="review" id="review" rows="5"></textarea>
-        </fieldset>
-
-        <fieldset>
-          <legend>Оценка отеля</legend>
-        <div class="half-width">
-          <label for="hotel">Название отеля</label>
-          <input type="text" name="hotel" id="hotel" placeholder="Название по-английски">
-        </div>
-        <div class="half-width">
-          <label for="arrival_date">Дата въезда</label>
-          <input type="number" name="arrival_date" id="arrival_date" placeholder="В формате дд-мм-гггг">
-        </div>
-        <div class="one-third-width">
-          <label for="color">Цвет кроватки</label>
-          <input type="color" name="color" id="color">
-        </div>
-        <div class="two-third-width">
-          <label for="dish_rating">Оценка обедов</label>
-          <select>
-            <option value="Подушечки оближешь" selected></option>
-          </select>
-        </div>
-        <label for="fish">Самая вкусная рыба</label>
-        <select type="text" id="fish" multiple>
-          <option value="Норвежский лосось" selected></option>
-          <option value="Зубатка"></option>
-          <option value="Морской окунь" selected></option>
-          <option value="Карась"></option>
-          <option value="Зеркальный карп"></option>
-        </select>
-        </fieldset>
-
-        <div class="buttons">
-          <input type="submit" name="submit" id="submit" value="Оценить">
-          <input type="reset" name="reset" id="reset" value="Сбросить">
-        </div>
-      </form>
     </main>
-<h3>Test text</h3>
-    <footer class="page-footer"></footer>
   </body>
+
 </html>
