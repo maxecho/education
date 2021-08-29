@@ -11,11 +11,8 @@ body {
 }
 
 nav{
-  background-color: WhiteSmoke;
   margin: 10px 30px 50px 30px;
-  text-align: center;
-  border: solid 1px;
-  border-color: grey;
+  text-align: left;
 }
 
 li:visited {
