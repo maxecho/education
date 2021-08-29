@@ -8,8 +8,11 @@ body {
 }
 
 nav{
-  background-color: #888888;
+  background-color: WhiteSmoke;
   margin: 10px 30px 50px 30px;
+  text-align: center;
+  border: solid 1px;
+  border-color: grey;
 }
 
 li:visited {
