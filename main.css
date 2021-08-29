@@ -1,10 +1,14 @@
-body{
-  font-family: sans-serif;
+body {
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Georgia", serif;
+  color: #222222;
   width: 60%;
 }
 
 nav{
-  background-color: grey;
+  background-color: #888888;
   margin: 10px 30px 50px 30px;
 }
 
@@ -29,7 +33,7 @@ a:hover {
   color: navy; {
 }
 
-footer{
-  margin: 10px 30px 50px 30px;
-  background-color: grey; 
+h1 {
+  font-size: 20px;
+  line-height: normal;
 }
