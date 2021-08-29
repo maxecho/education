@@ -1,6 +1,11 @@
 body{
   font-family: sans-serif;
-  width: 80%;
+  width: 60%;
+}
+
+nav{
+  background-color: grey;
+  margin: 10px 30px 50px 30px;
 }
 
 li:visited {
@@ -8,7 +13,7 @@ li:visited {
 }
 
 .introduction {
-  margin: 50px 30px;
+  margin: 10px 30px 50px 30px;
 }
 
 .content {
@@ -22,4 +27,9 @@ a{
 a:hover {
   text-decoration: underline;
   color: navy; {
+}
+
+footer{
+  margin: 10px 30px 50px 30px;
+  background-color: grey;
 }
