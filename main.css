@@ -45,3 +45,14 @@ footer {
   margin: 50px 30px;
   width: 10%;
 }
+
+button > img {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+button{
+  border-color: navy;
+  background-color: navy;
+  color: white;
+}
