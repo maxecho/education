@@ -46,13 +46,10 @@ footer {
   width: 10%;
 }
 
-button > img {
-  margin-left: 10px;
-  vertical-align: middle;
+button {
+  line-height: 25px;
 }
 
-button{
-  border-color: navy;
-  background-color: navy;
-  color: white;
+button::before {
+  content: "🔎 ";
 }
