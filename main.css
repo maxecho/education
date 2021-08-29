@@ -46,30 +46,10 @@ footer {
   width: 10%;
 }
 
-.btn {
-    float: left;
-    clear: both;
-    background: url(imgs/button_left.png) no-repeat;
-    padding: 0 0 0 10px;
-    margin: 5px 0;
+.blogdate{
+  color: lightgrey;
 }
-.btn a{
-    float: left;
-    height: 40px;
-    background: url(imgs/button_middle.png) repeat-x left top;
-    line-height: 40px;
-    padding: 0 10px;
-    color: #fff;
-    font-size: 1em;
-    text-decoration: none;
+
+.button{
+  background-color: navy;
 }
-.btn span {
-    background: url(imgs/button_right.png) no-repeat;
-    float: left;
-    width: 10px;
-    height: 40px;
-}
-.btn_gray {background-color: #808080;}
-.btn_green { background-color: #ADFF2F;}
-.btn_blue {background-color: #0000CD;}
-.btn_red {background-color: #DC143C;}
