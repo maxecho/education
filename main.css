@@ -3,11 +3,6 @@ body{
   width: 80%;
 }
 
-li:hover {
-  text-decoration: underline;
-  color: navy;
-}
-
 li:visited {
   color: pink;
 }
@@ -18,4 +13,13 @@ li:visited {
 
 .content {
   margin: 50px 30px;
+}
+
+a{
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: navy; {
 }
