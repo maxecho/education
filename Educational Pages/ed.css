@@ -1,0 +1,51 @@
+body {
+  padding: 0 30px;
+  font-size: 18px;
+  line-height: normal;
+  font-family: sans-serif;
+  color: #222222;
+  width: 30%;
+  margin: 0 auto;
+  width: 800px;
+  height: 200px;
+}
+
+.info {
+  font-size: 15px;
+  border: solid 1px;
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 15px 15px;
+  background-color: #34495E;
+  color: white;
+}
+
+.outer {
+  background-color: black;
+  color: #fff;
+  height: 600px;
+  width: 800px;
+  margin: 0px auto;
+  padding: 5px;
+}
+
+.left {
+  background-color: blue;
+  color: #000;
+  height: 600px;
+  width: 50%;
+  float: left;
+}
+
+.right {
+  background-color: #efefef;
+  color: #000;
+  height: 600px;
+  width: 50%;
+  float: right;
+}
+
+.login{
+  width: 300px;
+  margin: auto;
+}
