@@ -1,12 +1,12 @@
 body {
   padding: 0 30px;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: normal;
   font-family: "Georgia", serif;
   color: #222222;
   width: 30%;
   margin:0 auto;
-  width:600px;
+  width:800px;
   height:200px;
 }
 
@@ -33,23 +33,14 @@ a{
 
 a:hover {
   text-decoration: underline;
-  color: navy; {
+  color: navy;
 }
 
 h1 {
   font-size: 20px;
-  line-height: normal;
 }
 
 footer {
   margin: 50px 30px;
   width: 10%;
-}
-
-.blogdate{
-  color: lightgrey;
-}
-
-.button{
-  background-color: navy;
 }
